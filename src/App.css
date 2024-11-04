@@ -1,0 +1,84 @@
+/* frontend/src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('./house.jpg') no-repeat center center fixed; /* Update the path here */
+  background-size: cover; /* Ensures the image covers the entire body */
+  margin: 0;
+  padding: 0;
+  color: #fff; /* Set a default text color for better visibility */
+}
+
+h1 {
+  text-align: center;
+  color: #333; /* You may want to change this to a lighter color depending on your background */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Enhanced shadow for visibility */
+}
+
+h2 {
+  color: #fff; /* Change to a lighter color for contrast */
+  margin-top: 30px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for form */
+  width: 300px; /* Fixed width for the form */
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adding shadow to the form */
+}
+
+input[type="number"],
+select {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.map-container {
+  height: 400px; /* Adjust height as needed */
+  margin-top: 20px;
+}
